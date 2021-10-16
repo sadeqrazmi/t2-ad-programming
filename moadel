@@ -1,0 +1,25 @@
+//t2- mohammad sadeq razmi 
+
+#include<iostream>
+
+using namespace std;
+
+ main(){
+ 
+ int a,b=0,c=0;
+  cout<<"be barname moadel daneshjooha   khosh amadid!"<<endl; 
+ 
+ cout<<"tedade daneshjooha ra vared konid"<<endl;
+ cin>>a;
+ 	for(int i=1;i<a+1;i++){
+ 		
+ 		cout<<"nomre daneshjoo "<<i<<" ra vred konid"<<endl;
+ 		cin>>b;
+ 		if(b>20)
+ 		cout<<"nomre balaye 20!!!"<<endl;
+ 		else
+ 		c=b+c;
+ 		
+	 }
+	 cout<<"moadel in daneshjooha dar dars barname nvisi "<<c/a<< " hast";
+ }
