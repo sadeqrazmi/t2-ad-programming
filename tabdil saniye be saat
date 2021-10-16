@@ -1,0 +1,20 @@
+//t2- mohammad sadeq razmi 
+
+#include<iostream>
+
+using namespace std;
+
+ main(){
+ 	
+ 	double a,s;
+ 	
+ 	cout<<"be barname tabdil saniye be saat khosh amadid!"<<endl;
+ 	
+ 	cout<<"adad saniye ra vared konid"<<endl;
+ 	cin>>a;
+ 	
+ 	s=a/3600;
+ 	
+ 	cout<<"tabdil saniye dade shode tavasot shoma be saat: "<<s<<" saat hast .";
+ 	
+ }
