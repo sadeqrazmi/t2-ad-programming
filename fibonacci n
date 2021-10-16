@@ -8,7 +8,7 @@ using namespace std;
  int n , f1 , f2 , t;
  
 cout << "be barname namyesh  seri fibonacci  khosh amadid!"<<endl;
- cout << "adad mored nazar khod ra vared konid :";
+ cout << "adad mored nazar khod ra vared konid (lotfan adadi bishtar az 3 vared namaeed)";
  cin>>n;
  cout<<"fibonacci "<<n<<":";
  n=n-3;
