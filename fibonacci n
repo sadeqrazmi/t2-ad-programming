@@ -1,0 +1,25 @@
+//t2- mohammad sadeq razmi 
+
+#include <iostream> 
+
+using namespace std;
+ main(){
+ 	
+ int n , f1 , f2 , t;
+ 
+cout << "be barname namyesh  seri fibonacci  khosh amadid!"<<endl;
+ cout << "adad mored nazar khod ra vared konid :";
+ cin>>n;
+ cout<<"fibonacci "<<n<<":";
+ n=n-3;
+
+ cout<<'1'<<" "<<'1'<<" "<<'2';
+ f1 = 1; f2 = 2;
+ for (int i=1 ; i<=n ; i++){
+   t = f1;
+   f1 = f2 ;
+   f2 = f2 + t ;
+   cout<<" " <<f2;
+ } 
+
+}
