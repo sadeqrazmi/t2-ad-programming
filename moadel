@@ -15,8 +15,11 @@ using namespace std;
  		
  		cout<<"nomre daneshjoo "<<i<<" ra vred konid"<<endl;
  		cin>>b;
- 		if(b>20)
+ 		if(b>20){
  		cout<<"nomre balaye 20!!!"<<endl;
+ 		cout<<"dobare vared konid"<<endl;
+ 		cin>>b;
+       	}
  		else
  		c=b+c;
  		
