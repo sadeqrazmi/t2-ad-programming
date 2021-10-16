@@ -21,6 +21,6 @@ cout<<"adad saniye ra vared konid"<<endl;
 cin>>c;
 
 
-cout<<"tabdil saat dade shode tavasot shoma be saniye: "<<a1+b1+c<<" saniye hast";
+cout<<"tabdil saat dade shode tavasot shoma be saniye: "<<a1+b1+c<<" saniye hast .";
 
 }
